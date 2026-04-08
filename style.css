@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Tiny5";
+    src: url(/fonts/Tiny5-Regular.ttf);
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/well.png);
+    background-size: 100%;
+}
+#area {
+    background-color: black;
+    border-radius: 5px;
+    width: 60%;
+    min-height: 240px;
+    padding: 10px;
+    margin: 20%;
+}
+#controller{
+    display: flex;
+    flex-direction: column;
+}
+p {
+    font-size: 18px;
+    color: white;
+    font-family: "Tiny5", serif;
+}
+h1 {
+    color: white;
+    font-family: "Tiny5", serif;
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-family: "Tiny5", serif;
+}
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: "Tiny5", serif; 
+    font-size: 15px;
+    text-align: left;
+}
