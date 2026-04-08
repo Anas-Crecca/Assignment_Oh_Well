@@ -76,7 +76,7 @@ function play(option) {
             createCont('>Lever out stones with stick', 'openTunnel'); 
         }
     } else if (option === 'openTunnel'){
-        textBox.innerHTML = '<p>You force the stick into a gap between two particularly loose looking stone slabs and easily lever them out of the wall. The slabs which used to be supported by the freshly removed once start tumbling after them. In short time you open up a hole in the wall, big enough to cawl through. To your surprise there is a dark tunnel behind this wall. Could it lead out?</p>';
+        textBox.innerHTML = '<p>You force the stick into a gap between two particularly loose looking stone slabs and easily lever them out of the wall. The slabs which used to be supported by the freshly removed ones start tumbling after them. In short time you open up a hole in the wall, big enough to cawl through. To your surprise there is a dark tunnel behind this wall. Could it lead out?</p>';
         clearCont();
         createCont('>Enter Tunnel', 'tunnel');
     } else if (option === 'tunnel'){
